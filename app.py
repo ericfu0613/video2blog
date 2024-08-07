@@ -6,7 +6,7 @@ from translator import translate_srt_file
 from video_to_pdf import video_to_pdf
 
 load_dotenv()
-
+openai_api_key = os.getenv('OPENAI_API_KEY')
 def main():
     st.title("YouTube 影片下载器与字幕转换器")
 
