@@ -1,0 +1,10 @@
+*.mp4
+*.srt
+.DS_Store
+.env
+__pycache__/
+*.png
+*.pdf
+*.wav
+*.json
+data/
